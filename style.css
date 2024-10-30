@@ -1,0 +1,97 @@
+body {
+  background-color:coral;
+}
+#drum-machine {
+  display:flex;
+  justify-content: center; 
+
+}
+#textContainer {
+  display:flex;
+  justify-content:center;
+  left:11em;
+  display:flex;
+ 
+
+}
+#display {
+  background-color:teal;
+  display:flex;
+  justify-content:left;
+  font-size:8em;
+  border-radius:.2em;
+  border-style:outset;
+  border-color:pink;
+  border-width:.2em;
+  width:40%;
+
+}
+
+.outer-box {
+  display:flex;
+  border-radius:1em;
+  flex-wrap: wrap;
+  border-style:outset;
+  border-color:pink;
+  border-width:2em;
+  width:38em;
+  height:30em;
+}
+.side-box {
+  display:flex;
+  border-style:outset;
+  border-color:pink;
+  border-width:2em;
+  width:2em;
+  border-radius:1em;
+  margin:1em;
+}
+.drum-pad {
+  border-radius:1em;
+  border-width:1em;
+  border-style:outset;
+  border-color:coral;
+  width:8em;
+  height:5em;
+  margin-right:1em;
+  margin-left:1em;
+  margin-top:1em;
+}
+.drum-pad:hover {
+  border-color:black;
+}
+
+.blue {
+    background-image: linear-gradient(gray, blue);
+}
+.orange {
+  background-image: linear-gradient(gray, orange);
+}
+.purple {
+    background-image: linear-gradient(gray, purple);
+}
+.green {
+  background-image:linear-gradient(gray, green);
+}
+
+.red {
+    background-image:linear-gradient(gray, red);
+}
+.black {
+    background-image:linear-gradient(gray, black);
+}
+.coral {
+    background-image:linear-gradient(gray, coral);
+}
+.white {
+    background-image:linear-gradient(gray, white);
+}
+.teal {
+    background-image:linear-gradient(gray, teal);
+}
+.slider {
+  writing-mode: vertical-rl;
+  direction: rtl;
+  margin:auto;
+  transform: scale(2); 
+}
